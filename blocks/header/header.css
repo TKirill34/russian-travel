@@ -1,0 +1,30 @@
+.header {
+	max-width: 1184px;
+	min-height: 52px;
+	padding: 28px 48px 56px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	background-color: #2A2C2F;
+}
+
+@media (max-width: 1025px) {
+	.header {
+		max-width: 928px;
+		padding: 28px 48px 48px;
+	}
+}
+
+@media (max-width: 769px) {
+	.header {
+		max-width: 720px;
+		padding: 28px 24px 48px;
+	}
+}
+
+@media (max-width: 360px) {
+	.header {
+		min-height: 42px;
+		padding: 16px 16px 48px;
+	}
+}
