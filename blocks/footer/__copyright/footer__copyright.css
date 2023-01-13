@@ -1,5 +1,4 @@
 .footer__copyright {
-	min-height: 16px;
 	margin: 0;
 	font-weight: 400;
 	font-size: 14px;
@@ -9,14 +8,6 @@
 
 @media (max-width: 680px) {
 	.footer__copyright {
-		font-size: 12px;
-	}
-}
-
-@media (max-width: 580px) {
-	.footer__copyright {
-		font-size: 14px;
-		min-height: 14px;
 		line-height: 100%;
 		text-align: left;
 	}

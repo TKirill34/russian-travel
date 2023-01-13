@@ -1,12 +1,5 @@
 .cover {
-	max-width: 100%;
 	margin: 12px 48px 0;
-	background-image: url(../../images/cover-trains.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: block;
-	text-decoration: none;
-	color: #FFFFFF;
 }
 
 @media (max-width: 1025px) {

@@ -2,8 +2,10 @@
 	max-width: 456px;
 	grid-row: 1/2;
 	grid-column: 2/3;
-	display: grid;
-	align-content: center;
+	display: flex;
+	flex-direction: column;
+  justify-content: flex-end;
+	row-gap: 12px;
 }
 
 @media (max-width: 880px) {

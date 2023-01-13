@@ -1,22 +1,23 @@
 .photo-grid__item {
 	max-width: 100%;
-	min-height: 213px;
+	max-height: 213px;
+	object-fit: contain;
 }
 
 @media (max-width: 1090px) {
 	.photo-grid__item {
-		min-height: 225px;
+		max-height: 225px;
 	}
 }
 
-@media (max-width: 880px) {
+@media (max-width: 780px) {
 	.photo-grid__item {
-		min-height: 264px;
+		max-height: 264px;
 	}
 }
 
 @media (max-width: 530px) {
 	.photo-grid__item {
-		min-height: 216px;
+		max-height: 100%;
 	}
 }

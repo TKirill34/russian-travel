@@ -1,9 +1,10 @@
 .footer__menu {
+	display: flex;
+	column-gap: 18px;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 680px) {
 	.footer__menu {
-		display: flex;
     flex-direction: column;
     row-gap: 32px;
 	}
