@@ -3,6 +3,7 @@
 	max-height: 460px;
 	object-fit: cover;
 	grid-column: 1/2;
+	display: block;
 }
 
 @media (max-width: 1125px) {

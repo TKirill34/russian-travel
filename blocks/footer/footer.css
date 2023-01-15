@@ -25,7 +25,6 @@
 	.footer {
 		padding: 64px 118px 24px 16px;
 		flex-direction: column;
-		align-items: flex-start;
 		row-gap: 48px;
 	}
 }
